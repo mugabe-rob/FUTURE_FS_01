@@ -1,12 +1,12 @@
 # Robert's Portfolio
 
-Welcome to my portfolio! I’m Robert, a passionate and dedicated professional with expertise in front-end development, data entry, and virtual assistance, alongside a deep commitment to advancing educational opportunities and tackling youth unemployment in Rwanda. Here, you'll find a showcase of my projects, skills, and achievements that reflect my drive for creating impactful, technology-based solutions.
+Welcome to my portfolio! I’m Robert, an experienced Full Stack Engineer with over three years of proven experience. I’m dedicated to advancing educational opportunities and tackling youth unemployment in Rwanda. Here, you'll find a showcase of my projects, skills, and achievements that reflect my drive for creating impactful, technology-based solutions.
 
 ---
 
 ## 🛠️ Skills & Technologies
 
-- **Programming & Development:** HTML, CSS, JavaScript, React, Wix, UI/UX Design
+- **Programming & Development:** HTML, CSS, JavaScript, React, Node.js, Python, UI/UX Design
 - **Project Management:** Requirement Gathering, Wireframing, Budgeting, Event Planning
 - **Data Management & Organization:** Data Entry, Microsoft Office Suite, Calendar Management
 - **Technical Support:** Customer Support, IT Assistance, Documentation & Training
@@ -44,9 +44,8 @@ Welcome to my portfolio! I’m Robert, a passionate and dedicated professional w
 
 ## 🏆 Professional Experience
 
-- **Data Entry Clerk:** Over 4 years of experience in precise data management and confidential information handling.
+- **Full Stack Engineer:** Over three years of experience in developing full-stack applications and delivering client-centered solutions.
 - **Virtual Assistant:** Expertise in client support, task prioritization, and digital communication.
-- **Front-End Developer:** Designed and implemented user-centered solutions for top companies in Kigali, Rwanda.
 - **Supply Chain Intern at BBOXX:** Gained invaluable experience in supply chain processes and inventory management.
 
 ---
