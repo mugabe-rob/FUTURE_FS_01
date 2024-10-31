@@ -45,15 +45,8 @@ Welcome to my portfolio! I’m Robert, an experienced Full Stack Engineer with o
 ## 🏆 Professional Experience
 
 - **Full Stack Engineer:** Over three years of experience in developing full-stack applications and delivering client-centered solutions.
-- **Virtual Assistant:** Expertise in client support, task prioritization, and digital communication.
-- **Supply Chain Intern at BBOXX:** Gained invaluable experience in supply chain processes and inventory management.
-
----
-
-## 📈 Current Projects
-
-- **Portfolio Website**: Designing a personal website to showcase my projects and professional journey.
-- **Career Path Prediction Model**: Developing a model to guide users in discovering career pathways through professional questioning.
+- **Freelance Full stack Developer on Upwork:** Expertise in client support, task prioritization, and digital communication.
+- **Data Analyst at BBOXX:** Gained invaluable experience in supply chain processes and inventory management.
 
 ---
 
@@ -62,7 +55,7 @@ Welcome to my portfolio! I’m Robert, an experienced Full Stack Engineer with o
 - **Bachelor’s Degree in Information Technology**
 - **Cisco Cybersecurity Certification** - Junior Cybersecurity Analyst Pathway
 - **Virtual Assistant Certification** - African Leadership Experience
-- **Microsoft Word Certification**
+- **Software Engineerinc Certification** - African Leadership Experience
 
 ---
 
@@ -70,9 +63,9 @@ Welcome to my portfolio! I’m Robert, an experienced Full Stack Engineer with o
 
 I’m always open to discussing potential collaborations, sharing insights, or just connecting with like-minded professionals. Please feel free to reach out!
 
-- **LinkedIn**: [Your LinkedIn Profile Link]
-- **Email**: [Your Email Address]
-- **Portfolio Website**: [Link to Portfolio Website]
+- **LinkedIn**: [https://www.linkedin.com/in/robert-mugabe/]
+- **Email**: mugaberoberto007@gmail.com
+- **Portfolio Website**: mugaberobertson.com
 
 ---
 
