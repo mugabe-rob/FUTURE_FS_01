@@ -63,7 +63,7 @@ Welcome to my portfolio! I’m Robert, an experienced Full Stack Engineer with o
 
 I’m always open to discussing potential collaborations, sharing insights, or just connecting with like-minded professionals. Please feel free to reach out!
 
-- **LinkedIn**: [https://www.linkedin.com/in/robert-mugabe/]
+- **LinkedIn**: https://www.linkedin.com/in/robert-mugabe/
 - **Email**: mugaberoberto007@gmail.com
 - **Portfolio Website**: mugaberobertson.com
 
