@@ -14,11 +14,11 @@
           <nav>
             <img src="images/logo.png" class="logo">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Portifolio</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portifolio">Portifolio</a></li>
+                <li><a href="#contact">Contact</a></li>
                 
             </ul>
         
@@ -51,9 +51,11 @@
                     </div>
                     <div class="tab-contents active-tab" id="skills">
                         <ul>
-                            <li><span>Backend Engineering</span><br>Front-end Engineer</li>
-                            <li><span>Mobile Application Development</span><br>UI/UX Design</li>
-                            <li><span>Web development</span><br>Full-Stack Software Development</li>
+                            <li><span>Web Development</span><br>HTML | CSS | Javascript | React | Node.js</li>
+                            <li><span>Programming Languages</span><br>Python(Django) | Javascript(Node.js) | PHP(Laravel)</li>
+                            <li><span>Databases</span><br>Mysql | MongoDB | SQL Server</li>
+                            <li><span>APIs & Web Services</span><br>RESTful APIs | GraphQL</li>
+                            <li><span>Version Control</span><br>Git | GitHub | Bitbucket</li>
                         </ul>
                     </div>
                     <div class="tab-contents" id="experience">
@@ -66,9 +68,9 @@
 
                     <div class="tab-contents" id="education">
                         <ul>
-                            <li><span>2024</span><br>Software Engineering Certificate from African Leadership Experience</li>
-                            <li><span>2024</span><br>Bachelor's in Btech from the University of Rwanda</li>
-                            <li><span>Software Development from Notre Dame De La Sagesse</span><br>Cloud computing</li>
+                            <li><span>2023-2024</span><br>Software Engineering Certificate from African Leadership Experience</li>
+                            <li><span>2022-2025</span><br>Bachelor's in Btech from the University of Rwanda</li>
+                            <li><span>2018-2022</span><br>Software Development from N.D.S</li>
                         </ul>
                     </div>
 
@@ -86,7 +88,7 @@
                 <i class="fa-solid fa-code"></i>
                 <h2>Web Development</h2>
                 <p>
-            I offer professional web design services to help you create a stunning and responsive website.</p>
+            I offer web development services either to organizations or individual people.</p>
             <a href="#"> Learn More</a>
                </div> 
 
@@ -94,7 +96,7 @@
                 <i class="fa-brands fa-app-store"></i>
                 <h2>App Development</h2>
                 <p>
-                    I offer professional web design services to help you create a stunning and responsive website.</p>
+                    I provide top-notch mobile app development services for both organizations and individuals, ensuring innovative and user-friendly applications tailored to your needs.</p>
             <a href="#"> Learn More</a>
                </div> 
 
@@ -119,25 +121,25 @@
                 <div class="work">
                     <img src="images/work-1.png" alt="">
                     <div class="layer">
-                        <h3>Social Media App</h3>
-                        <p>A social media app that connects people and allows them to share updates, photos, and messages.</p>
-                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Volunteerfit App</h3>
+                        <p>Volunteerfit is an app designed to help people match them with available volunteering opportunities.</p>
+                        <a href="https://baremy.github.io/volunteerfit/"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/work-2.png" alt="">
                     <div class="layer">
-                        <h3>Music App</h3>
-                        <p>A social media app that connects people and allows them to share updates, photos, and messages.</p>
-                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>YEES Platform</h3>
+                        <p>Youth Employment Empowerment System is designed to help the youth to overcome unemployment.</p>
+                        <a href="https://github.com/Murasajo/Youth-Employment-Empowerment-System"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
                 <div class="work">
                     <img src="images/work-3.png" alt="">
                     <div class="layer">
-                        <h3>Online Shopping App</h3>
-                        <p>A social media app that connects people and allows them to share updates, photos, and messages.</p>
-                        <a href=""><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        <h3>Fast food App</h3>
+                        <p>Fastfood is your platform that helps you order food online easily.</p>
+                        <a href="https://github.com/mugabe-rob/FUTURE_FS_02"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
                     </div>
                 </div>
             </div>
@@ -163,12 +165,13 @@
             </div>
 
             <div class="contact-right">
-                <form>
+                <form name="submit-to-google-sheet">
                     <input type="text" placeholder="Full Name" name="Name" required>
-                    <input type="email" placeholder="Email" name="email" required>
+                    <input type="email" placeholder="Email" name="Email" required>
                     <textarea name="Message" rows="6" placeholder="Message" required></textarea>
                     <button type="submit" class="btn btn2">Submit</button>
                 </form>
+                <span id="msg"></span>
             </div>
         </div>
     </div>
@@ -194,5 +197,27 @@
         }
 
     </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbwtQSOJXKUHjl7cqTY2zgzDiDkv13zpoh_qBljgBYmeEA2rc_RSPeR4T3hrCFO33rz3/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+    
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => {
+                    console.error('Error!', error.message)
+                    msg.innerHTML = "Error sending message"
+                });
+        })
+    </script>
+      </script>
 </body>
 </html>
