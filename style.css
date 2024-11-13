@@ -6,6 +6,9 @@
     box-sizing: border-box;
     font-family: "Outfit", sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background: #080800;
@@ -191,6 +194,7 @@ nav ul li a:hover::after{
     border-radius: 8px;
     display: block;
     transition: transform 0.5s;
+    
 }
 .layer{
     width: 100%;
@@ -393,4 +397,9 @@ form btn2{
     .logo {
         display: none;
     }
+}
+#msg{
+    color: #61b752;
+    margin-top: -40px;
+    display: block;
 }
